@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page 2</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+<body class="font-body">
+
+    <section class="head sticky top-0 left-0 bg-white z-20">
+        <div class="navbar max-w-[1200px] mx-auto border-none items-center flex justify-around  ">
+            <div class="nav-logo">
+                <img src="../public/nav-logo.png">
+            </div>
+            <div style="font-weight: bold;" class="nav-options gap-4 max-md:flex-col">
+                <a href="#home" class="n-opt"> Home</a>
+                <a href="#about" class="n-opt"> About</a>
+                <a href="#courses" class="n-opt"> Courses</a>
+                <a href="#contact" class="n-opt"> Contact</a>
+            </div>
+            <div class="nav-icons flex gap-8 max-md:flex-col">
+                <img class="cursor-pointer" src="../public/nav-icon1.svg">
+                <img class="cursor-pointer" src="../public/nav-icon2.svg">
+                <img class="cursor-pointer" src="../public/nav-icon3.svg">
+            </div>
+            <div class="log-in flex justify-between w-[15%] max-md:flex-col">
+                <button class="btn px-4 py-2 ">Login</button>
+                <button class="btn px-4 py-2">Sign up</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="home bg-gradient-to-r from-[#04016C] to-[#4A16BD]">
+        <div class="home-container max-w-[1200px] mx-auto relative px-[3%] pb-20 pt-24">
+
+            <div class="home-main flex flex-col">
+                <p class="text-[#FFFFFF] text-[12px] text-nowrap font-body uppercase tracking-[2px] font-normal">Successful coaches are visionaries</p>
+                <p class="text-[#FFFFFF] text-[60px] leading-[70px] pt-3">Good <span class="text-[#0E38CD]">coaching</span> is <br> good teaching & <br> nothing else.</p>
+                <div class="home-container-main-btn flex  h-[100px] w-[50%] my-6">
+                    <button class="text-[#FFFFFF] hover:border h-[50%] w-[40%] rounded-lg p-2">View Courses</button>
+                    <button class="text-[#FFFFFF] hover:border h-[50%] w-[40%] rounded-lg p-2">Get Free Consultation</button>
+                </div>
+                <div class="home-form relative w-[50%] text-[12px] max-md:w-[100%] ">
+                    <input class=" h-[50px] w-[70%] rounded-[7px] pl-[20px]" type="text" placeholder="What do you want to learn today?">
+                    <button class="absolute top-[20%] right-[32%] flex items-center gap-2 text-[#FFFFFF] bg-gradient-to-t from-[#3023B2] to-[#7F56D9] px-[4%] py-[1%]
+                     border-none rounded-[8px] hover:text-black"> 
+                        <img src="../public/search-icon.svg" >Search</button>
+                </div>
+
+                <div class="gradient h-[80%] w-[45%] rounded-full absolute top-20 right-2 blur-[100px]">
+                    
+                </div>
+
+                <div class="home-image absolute top-0 right-20 w-[30%] mix-blend-multiply max-md:hidden ">
+                    <img src="../public/brunette-woman-hugging-laptop 1.svg">
+                </div>
+            </div>
+            <div class="absolute flex gap-3 text-white top-[20%] left-[52%] font-thin leading-4 max-md:hidden">
+                <img class="h-[100px]" src="../public/Icon_2c1.png">
+                <div>
+                    <h1>Shyam</h1>
+                    <p class="text-[10px] pt-1">In a coaching role, you ask the <br> questions and rely more on your <br> 
+                        staff, who become the experts, to <br> provide the information.</p>
+                    <p class="text-[#0094E7] pt-1 text-[12px]">4.0</p>
+                </div>
+            </div>
+            <div class="relative bottom-[-80px] left-[40%] max-md:hidden">
+                <div class="absolute bottom-0 h-[160px] w-[16%] border-b-0 rounded-t-[50%] border-[1px] border-solid"></div>
+                <div class="absolute bottom-0 left-4 h-[140px] w-[13%] border-b-0 rounded-t-[50%] border-[1px] border-dashed"></div>
+                <div class="absolute bottom-0 left-8 h-[120px] w-[10%] border-b-0 rounded-t-[50%] border-[1px] border-solid"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" banner bg-gradient-to-t to-[#2E08C7] from-[#7E08C7] border-t-[2px]">
+        <div class="banner-img max-w-[1200px] flex justify-evenly items-center mx-auto py-[2%] max-md:flex-wrap max-md:gap-5">
+            <img src="../public/Link ⏵ brand6.png.png">
+            <img src="../public/Link ⏵ brand1.png.png">
+            <img src="../public/Link ⏵ brand6.png.png">
+            <img src="../public/Link ⏵ brand3.png.png">
+            <img src="../public/Link ⏵ brand5.png.png">
+            <img src="../public/Link ⏵ brand1.png.png">
+        </div>
+    </section>
+
+    <section class="about  bg-gradient-to-t to-[#D9ECFF] from-[#F0F3FF]">
+        <div class="container2 max-w-[1200px] mx-auto py-10 relative">
+
+            <div class="content1 text-center pt-10 ">
+            <h1 class="text-[#323232]">Featured<span class="text-[#4883FF]"> Course</span></h1>
+            <h2 class="tracking-[3px] text-[25px] pt-2">The feature courses are we invented our teaching part</h2>
+            </div>
+            <div>
+                <div class="absolute top-10 w-24 h-24 rounded-full border-[#9de3faae] border-[18px] max-md:hidden"></div>
+            </div>
+
+            <div class="cards grid grid-cols-3 justify-items-center">
+                <div class="card">
+                    <img class="card1" src="../public/card img 1.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>1,957 Students</p1>
+                            <p2>01h 55m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">Motion Graphics: Create a Nice
+                            Typography Animation</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card1" src="../public/card img 2.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>9,575 Students</p1>
+                            <p2>01h 59m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">Advance PHP knowledge with JS to
+                            make smart web</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card1" src="../public/card img 3.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>2,957 Students</p1>
+                            <p2>02h 49m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">Education Software and PHP and JS
+                            System Script</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card1" src="../public/card img 4.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>5,457 Students</p1>
+                            <p2>01h 49m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">The Complete Financial Analyst
+                            Training & Investing</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card1" src="../public/card img 5.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>595 Students</p1>
+                            <p2>01h 49m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">Marketing 2023: Complete Guide To
+                            Instagram Growth</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card1" src="../public/card img 6.png">
+                    <div class="card-content pl-6 pr-6">
+                        <p class="text-[10px] flex justify-between">
+                            <p1>458 Students</p1>
+                            <p2>03h 00m</p2>
+                        </p>
+                        <h1 class="card-content text-[20px] pt-5 leading-8 text-[#324361]">Learn 3D Modelling and Design
+                            for Beginners</h1>
+                        <p class="text-[18px] pt-10 pb-1 flex justify-between">
+                            <p1>Rs.499</p1>
+                            <p2><img src="../public/9054263_bx_cart_alt_icon 1.svg"></p2>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="c2-btn mx-[42%] text-[#FFFFFF] text-center content-center mt-12 px-[2%] py-[1%] cursor-pointer mb-8 rounded-[10px] border-[none]">Explore courses</button>
+        </div>
+
+    </section>
+
+    <section class="bg-gradient-to-r from-[#739FE8] from-[20%] to-[#4F18CA]">
+    <div class="container3  max-w-[1200px] py-20  mx-auto ">
+        <div class="c3-ctnt text-center">
+           <h1 class="text-[45px] text-[#FFFFFF]">Why <span class="text-[#0E38CD]">learn </span>with our courses?</h1>
+           <h2 class=" text-[#FFFFFF] font-thin">We are providing the best courses and top classes.And<br>extradinery placement training.....</h2>
+        </div>
+        <div class="relative left-[-100px] top-[-100px] max-md:hidden">
+            <div class="absolute top-0 h-[160px] w-[16%] border-b-0 rounded-t-[50%] border-[1px] border-solid rotate-90"></div>
+            <div class="absolute top-3 h-[140px] w-[13%] border-b-0 rounded-t-[50%] border-[1px] border-dashed rotate-90"></div>
+            <div class="absolute top-6 h-[120px] w-[10%] border-b-0 rounded-t-[50%] border-[1px] border-solid rotate-90"></div>
+        </div>
+
+
+        <div class="c3-card flex justify-evenly text-center text-white mt-14">
+
+            <div class="c3-cards justify-items-center">
+                <img class="c3-icon" src="../public/c3-icon 1.png">
+                <h1 class="text-[25px] pt-6">01. Learn</h1>
+                <h2 class="text-[18px] pt-3">Learn continually. There is always<br>
+                    “one more thing”to learn.</h2>
+            </div>
+
+            <img class="c3-line" src="../public/c3-line.png">
+
+            <div class="c3-cards justify-items-center">
+                <img class="c3-icon" src="../public/c3-icon 2.png">
+                <h1 class="text-[25px] pt-6">02. Graduate</h1>
+                <h2 class="text-[18px] pt-3">Be bold,be courageous,<br>
+                    be your best.</h2>
+            </div>
+            
+            <img class="c3-line" src="../public/c3-line.png">
+
+            <div class="c3-cards justify-items-center">
+                <img class="c3-icon" src="../public/c3-icon 3.png">
+                <h1 class="text-[25px] pt-6">03. Work</h1>
+                <h2 class="text-[18px] pt-3">Great companies are built in<br>the office,with hard work put<br>
+                    in by team.</h2>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section class="courses bg-gradient-to-t from-[#D9ECFF] from-[50%]  to-[#FFFFFF] mx-auto">
+        <div class="container4 max-w-[1200px] mx-auto py-28">
+            <div class="c4-ctnt text-center">
+                <h1 class="text-[43px] text-[#4E596B] ">Top <span class="text-[#0E38CD]">learn </span>Categories</h1>
+                <h2 class="text-[#4E596B] font-light">100+ unique online course list designs</h2>
+            </div>
+            <div class="c4-card flex justify-evenly pt-12 ">
+
+                <div class="c4-cards ">
+                    <div class="c4-img-bg bg-[#DF385B]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 1.png">
+                    </div>
+                    <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">Digtal<br>Marketing</h1>
+                        <h2 class="text-center text-[15px] pt-7">25 Courses</h2>
+                    </div>
+                </div>
+                <div class="c4-cards">
+                    <div class="c4-img-bg bg-[#5AB48E]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 2.png">
+                    </div>
+                    <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">Web<br>Development</h1>
+                        <h2 class="text-center text-[15px] pt-7">16 Courses</h2>
+                    </div>
+                </div>
+                <div class="c4-cards">
+                    <div class="c4-img-bg bg-[#7F56D9]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 3.png">
+                    </div>
+                   <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">Art &<br>Humanities</h1>
+                        <h2 class="text-center text-[15px] pt-7">25 Courses</h2>
+                    </div>
+                </div>
+                <div class="c4-cards">
+                    <div class="c4-img-bg bg-[#FAB437]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 4.png">
+                    </div>
+                    <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">Personal<br>Development</h1>
+                        <h2 class="text-center text-[15px] pt-7">22 Courses</h2>
+                    </div>
+                </div>
+                <div  class="c4-cards">
+                    <div class="c4-img-bg bg-[#2AAA94]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 5.png">
+                    </div>
+                    <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">IT and<br>Software</h1>
+                        <h2 class="text-center text-[15px] pt-7">110 Courses</h2>
+                    </div>
+                </div>
+                <div class="c4-cards">
+                    <div class="c4-img-bg bg-[#2CD182]">
+                        <img class="c4-card-icon" src="../public/c4-Icon 6.png">
+                    </div>
+                    <div class="c4-card-ctnt">
+                        <h1 class="text-center text-[20px] pt-7">Graphic<br>Design</h1>
+                        <h2 class="text-center text-[15px] pt-7">85 Courses</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sub  mx-auto  bg-gradient-to-b from-[#ffffff] to-[#DBEDFF]">
+        <div class=" mx-auto max-w-[1200px] pb-5 relative">
+            
+            <div class="my-24">
+                <div class="container5 relative w-[75%] text-[#FFFFFF] rounded-[20px] pb-16  bg-gradient-to-r from-[#00B3FF] 
+                                from-[0%] via-[#1901F8] via-[56%] to-[#E441FF] to-[100%] blur-[0.2px] mx-auto">
+                    <h1 class="text-center text-[38px] pt-10">Subscribe For Get Update <br> Every New Courses</h1>
+                    <p class="font-body leading-7 text-center">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+                    <div class="input flex justify-center mt-9">
+                        <input type="text" placeholder="enter your email" class="h-[45px] w-[30%] placeholder:text-[#FFFFFF] bg-slate-400 text-[#FFFFFF] rounded-tl-md rounded-bl-md pl-2 shadow">
+                        <button class="px-[2%] py-[1%] bg-[#0E38CD] rounded-tr-md rounded-br-md">Subscribe</button>
+                    </div>
+                    <div class="max-md:hidden">
+                        <img src="../public/c5-1.png" class="absolute top-9 left-7 h-14 w-14">
+                        <img src="../public/c5-2.png" class="absolute top-32 left-28 h-14 w-14">
+                        <img src="../public/c5-3.png" class="absolute top-56 left-12 h-14 w-14">
+                        <img src="../public/c5-4.png" class="absolute top-9 right-12 h-14 w-14">
+                        <img src="../public/c5-5.png" class="absolute top-32 right-28 h-14 w-14">
+                        <img src="../public/c5-6.png" class="absolute top-56 right-7 h-14 w-14">
+
+                        <img src="../public/c5_Polygon 8.png" class="absolute top-[280px] left-[-50px]">
+                        <img src="../public/c5_Polygon 7.png" class="absolute top-[380px] right-[-80px]">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[100%] mx-auto my-44">
+                <div class="c5-women relative"> 
+                        <img class="w-[70%] mx-auto" src="../public/c5-women.png">
+                    <button class="c5 absolute top-[41%] left-[48%] rounded-full py-[1.5%] pl-[2%] pr-[1.5%]
+                        bg-gradient-to-r from-[#21B573] to-[#7F56D9] hover:border-[15px] hover:border-[#F5EBEB]">
+                        <img class="w-6 h-7 " src="../public/c5-play-btn.png">
+                    </button>
+                        <img src="../public/c5_banner_right.png.png" class="absolute left-[74%] top-[65%] w-[20%]">
+                </div>
+            </div>
+
+            <div class="conatainer6 relative ">
+                <h1 class="text-[42px] text-[#0E38CD] text-center">Testimonials</h1>
+                <h2 class="text-[25px] text-[#4E596B] pt-4  text-center">What our student say about us</h2>
+                <img class="absolute top-6 left-[-30px]" src="../public/c6-halfround.png">
+
+                <div class="c6-cards text-[13px] my-32">
+
+                    <div class="flex justify-between relative">
+                        <div class="absolute top-[-40px] left-[32.5%] w-[35%] drop-shadow-lg shadow-black z-10">
+                            <div class="c6-card p-9 pb-0 bg-white  border-[1px] relative">
+                                <img class="absolute top-[-45px] left-[40%]" src="../public/c6-card-img.svg">
+                                <p>Such an amazing traniner and easily understand the entire
+                                    syllabus, and the guidence will be super and good to the way
+                                    of explaning.</p>
+                                    <div class="stars flex pt-3 pb-2">
+                                        <img src="../public/star-yellow.svg">
+                                        <img src="../public/star-yellow.svg">
+                                        <img src="../public/star-yellow.svg">
+                                        <img src="../public/star-yellow.svg">
+                                        <img src="../public/star-blue.svg">
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="c6-card p-9 pb-0 bg-white w-[35%] border-[1px] drop-shadow-lg shadow-black relative">
+                            <img class="absolute top-[-45px] left-[40%]" src="../public/c6-card-img.svg">
+                            <p>Such an amazing traniner and easily understand the entire
+                                syllabus, and the guidence will be super and good to the way
+                                of explaning.</p>
+                                <div class="stars flex pt-3 pb-2">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-blue.svg">
+                                </div>
+        
+                        </div>
+
+                        <div class="c6-card p-9 pb-0 bg-white w-[35%] border-[1px] drop-shadow-lg shadow-black relative">
+                            <img class="absolute top-[-45px] left-[40%]" src="../public/c6-card-img.svg">
+                            <p>Such an amazing traniner and easily understand the entire
+                                syllabus, and the guidence will be super and good to the way
+                                of explaning.</p>
+                                <div class="stars flex pt-3 pb-2">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-yellow.svg">
+                                    <img src="../public/star-blue.svg">
+                                </div>
+        
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="arrows flex gap-2 justify-end">
+                <img class="cursor-pointer" src="../public/left-arrow.svg">
+                <img class="cursor-pointer" src="../public/right-arrow.svg">
+            </div>    
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-r from-[#931BBD] to-[#477AE3]">
+        <div class="max-w-[1200px] mx-auto p-8">
+            <div class="flex justify-between ">
+                <div class="w-[40%]">
+                    <h1 class="mb-2 text-[25px]">Connect</h1>
+                    <img class="mix-blend-multiply" src="../public/footer-logo.svg">
+                    <p class="text-[12px]">Sri Jagannath Nivas,8-1-164/345/A/1,<br>
+                        Pragati Colony, Mailardevpally, Nawab <br>
+                        Saheb Kunta, Hyd, 500005
+                    </p>
+                </div>
+                <div class="flex justify-between w-[60%] max-md:flex-wrap">
+                    <div>
+                        <h1 class="mb-2 text-[25px]">Classes</h1>
+                        <div class="flex flex-col gap-2 text-[15px]">
+                            <a href="#">Classroom courses</a>
+                            <a href="#">Virtual classroom courses</a>
+                            <a href="#">E-learning courses</a>
+                            <a href="#">Video Courses</a>
+                            <a href="#">Offline Courses</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-2 text-[25px]">Community</h1>
+                        <div class="flex flex-col gap-2 text-[15px]">
+                            <a href="#">Learners</a>
+                            <a href="#">Parteners</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Transactions</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div> 
+                    <div>
+                        <h1 class="mb-2 text-[25px]">Quick links</h1>
+                        <div class="flex flex-col gap-2 text-[15px]">
+                            <a href="#">Home</a>
+                            <a href="#">Professional Education</a>
+                            <a href="#">Courses</a>
+                            <a href="#">Admissions</a>
+                            <a href="#">Testimonial</a>
+                            <a href="#">Programs</a>
+                        </div>
+                    </div> 
+                    <div>
+                        <h1 class="mb-2 text-[25px]">More</h1>
+                        <div class="flex flex-col gap-2 text-[15px]">
+                            <a href="#">Press</a>
+                            <a href="#">Investors</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Help</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-l from-[#477AE3] to-[#A542C8] to-[100%]">
+        <div class="p-3">
+            <div class="flex justify-center gap-3">
+                <img class="p-1 bg-white rounded-full w-9 h-9" src="../public/Instagram.svg">
+                <img class="p-1 bg-white rounded-full w-9 h-9" src="../public/WhatsApp.svg">
+                <img class="p-1 bg-white rounded-full w-9 h-9" src="../public/Twitter.svg">
+                <img class="p-1 bg-white rounded-full w-9 h-9" src="../public/LinkedIn.svg">
+                <img class="p-1 bg-white rounded-full w-9 h-9" src="../public/YouTube.svg">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-l from-[#477AE3] from-[40%] to-[#A542C8]">
+        <h1 class="text-white text-[13px] text-center">Copyright @ 2023 askmeidentity. All Rights Reserved</h1>
+    </section>
+
+    
+</body>
+</html>
