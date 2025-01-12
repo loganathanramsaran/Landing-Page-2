@@ -38,7 +38,7 @@
     @apply bg-[linear-gradient(#7F56D9,#083F9B)] hover:bg-[linear-gradient(#083F9B,#7F56D9)];
   }
   .c4-cards {
-    @apply bg-white w-[15%] justify-items-center text-[#324361] rounded-[20px] pb-2 cursor-pointer hover:bg-slate-300;
+    @apply bg-white w-[15%] max-sm:w-[60%] justify-items-center text-[#324361] rounded-[20px] pb-2 cursor-pointer hover:bg-slate-300;
   }
   .c4-img-bg {
     @apply h-[90px] w-[90px] content-center justify-items-center mt-10 rounded-lg border-[none] ;

@@ -10,7 +10,7 @@
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 <body class="font-body">
 
-    <section class="head sticky top-0 left-0 bg-white z-20">
+    <section class="head top-0 left-0 bg-white z-20">
         <div class="navbar max-w-[1200px] mx-auto border-none items-center flex justify-around  ">
             <div class="nav-logo">
                 <img src="./public/nav-logo.png">
@@ -37,15 +37,15 @@
         <div class="home-container max-w-[1200px] mx-auto relative px-[3%] pb-20 pt-24">
 
             <div class="home-main flex flex-col">
-                <p class="text-[#FFFFFF] text-[12px] text-nowrap font-body uppercase tracking-[2px] font-normal">Successful coaches are visionaries</p>
-                <p class="text-[#FFFFFF] text-[60px] leading-[70px] pt-3">Good <span class="text-[#0E38CD]">coaching</span> is <br> good teaching & <br> nothing else.</p>
-                <div class="home-container-main-btn flex  h-[100px] w-[50%] my-6">
+                <p class="text-[#FFFFFF] text-[12px] text-nowrap font-body uppercase tracking-[2px] font-normal max-sm:text-center">Successful coaches are visionaries</p>
+                <p class="text-[#FFFFFF] text-[60px] leading-[70px] pt-3 max-md:text-5xl max-sm:text-4xl max-sm:text-center">Good <span class="text-[#0E38CD]">coaching</span> is <br> good teaching & <br> nothing else.</p>
+                <div class="home-container-main-btn flex  h-[100px] w-[50%] my-6 max-sm:w-full max-sm:justify-center">
                     <button class="text-[#FFFFFF] hover:border h-[50%] w-[40%] rounded-lg p-2">View Courses</button>
                     <button class="text-[#FFFFFF] hover:border h-[50%] w-[40%] rounded-lg p-2">Get Free Consultation</button>
                 </div>
-                <div class="home-form relative w-[50%] text-[12px] max-md:w-[100%] ">
-                    <input class=" h-[50px] w-[70%] rounded-[7px] pl-[20px]" type="text" placeholder="What do you want to learn today?">
-                    <button class="absolute top-[20%] right-[32%] flex items-center gap-2 text-[#FFFFFF] bg-gradient-to-t from-[#3023B2] to-[#7F56D9] px-[4%] py-[1%]
+                <div class="home-form relative w-[50%] text-[12px] max-md:w-full ">
+                    <input class=" h-[50px] w-[70%] rounded-[7px] pl-[20px] max-sm:w-full" type="text" placeholder="What do you want to learn today?">
+                    <button class="absolute top-[20%] right-[32%] flex items-center gap-2 max-sm:right-5 text-[#FFFFFF] bg-gradient-to-t from-[#3023B2] to-[#7F56D9] px-[4%] py-[1%]
                      border-none rounded-[8px] hover:text-black"> 
                         <img src="./public/search-icon.svg" >Search</button>
                 </div>
@@ -58,7 +58,7 @@
                     <img src="./public/brunette-woman-hugging-laptop 1.svg">
                 </div>
             </div>
-            <div class="absolute flex gap-3 text-white top-[20%] left-[52%] font-thin leading-4 max-md:hidden">
+            <div class="absolute flex gap-3 text-white top-[20%] left-[52%] font-thin leading-4 max-sm:hidden max-md:left-[70%] max-md:top-[40%]">
                 <img class="h-[100px]" src="./public/Icon_2c1.png">
                 <div>
                     <h1>Shyam</h1>
@@ -97,7 +97,7 @@
                 <div class="absolute top-10 w-24 h-24 rounded-full border-[#9de3faae] border-[18px] max-md:hidden"></div>
             </div>
 
-            <div class="cards grid grid-cols-3 justify-items-center">
+            <div class="cards grid grid-cols-3 justify-items-center max-md:grid-cols-2 max-sm:grid-cols-1">
                 <div class="card">
                     <img class="card1" src="./public/card img 1.png">
                     <div class="card-content pl-6 pr-6">
@@ -197,7 +197,7 @@
     <section class="bg-gradient-to-r from-[#739FE8] from-[20%] to-[#4F18CA]">
     <div class="container3  max-w-[1200px] py-20  mx-auto ">
         <div class="c3-ctnt text-center">
-           <h1 class="text-[45px] text-[#FFFFFF]">Why <span class="text-[#0E38CD]">learn </span>with our courses?</h1>
+           <h1 class="text-[45px] text-[#FFFFFF] max-sm:text-3xl">Why <span class="text-[#0E38CD]">learn </span>with our courses?</h1>
            <h2 class=" text-[#FFFFFF] font-thin">We are providing the best courses and top classes.And<br>extradinery placement training.....</h2>
         </div>
         <div class="relative left-[-100px] top-[-100px] max-md:hidden">
@@ -207,7 +207,7 @@
         </div>
 
 
-        <div class="c3-card flex justify-evenly text-center text-white mt-14">
+        <div class="c3-card flex justify-evenly text-center text-white mt-14 max-sm:flex-col">
 
             <div class="c3-cards justify-items-center">
                 <img class="c3-icon" src="./public/c3-icon 1.png">
@@ -216,7 +216,7 @@
                     “one more thing”to learn.</h2>
             </div>
 
-            <img class="c3-line" src="./public/c3-line.png">
+            <img class="c3-line max-sm:hidden" src="./public/c3-line.png">
 
             <div class="c3-cards justify-items-center">
                 <img class="c3-icon" src="./public/c3-icon 2.png">
@@ -225,7 +225,7 @@
                     be your best.</h2>
             </div>
             
-            <img class="c3-line" src="./public/c3-line.png">
+            <img class="c3-line max-sm:hidden" src="./public/c3-line.png">
 
             <div class="c3-cards justify-items-center">
                 <img class="c3-icon" src="./public/c3-icon 3.png">
@@ -245,7 +245,7 @@
                 <h1 class="text-[43px] text-[#4E596B] ">Top <span class="text-[#0E38CD]">learn </span>Categories</h1>
                 <h2 class="text-[#4E596B] font-light">100+ unique online course list designs</h2>
             </div>
-            <div class="c4-card flex justify-evenly pt-12 ">
+            <div class="c4-card flex justify-evenly pt-12 max-sm:flex-col max-sm:items-center max-sm:gap-y-6 ">
 
                 <div class="c4-cards ">
                     <div class="c4-img-bg bg-[#DF385B]">
@@ -311,10 +311,10 @@
             <div class="my-24">
                 <div class="container5 relative w-[75%] text-[#FFFFFF] rounded-[20px] pb-16  bg-gradient-to-r from-[#00B3FF] 
                                 from-[0%] via-[#1901F8] via-[56%] to-[#E441FF] to-[100%] blur-[0.2px] mx-auto">
-                    <h1 class="text-center text-[38px] pt-10">Subscribe For Get Update <br> Every New Courses</h1>
+                    <h1 class="text-center text-[38px] pt-10 max-sm:text-xl">Subscribe For Get Update <br> Every New Courses</h1>
                     <p class="font-body leading-7 text-center">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
                     <div class="input flex justify-center mt-9">
-                        <input type="text" placeholder="enter your email" class="h-[45px] w-[30%] placeholder:text-[#FFFFFF] bg-slate-400 text-[#FFFFFF] rounded-tl-md rounded-bl-md pl-2 shadow">
+                        <input type="text" placeholder="enter your email" class="h-[45px] w-[35%] max-sm:w-[50%]  placeholder:text-[#FFFFFF] bg-slate-400 text-[#FFFFFF] rounded-tl-md rounded-bl-md pl-2 shadow">
                         <button class="px-[2%] py-[1%] bg-[#0E38CD] rounded-tr-md rounded-br-md">Subscribe</button>
                     </div>
                     <div class="max-md:hidden">
@@ -382,7 +382,7 @@
                         </div>
 
                         <div class="c6-card p-9 pb-0 bg-white w-[35%] border-[1px] drop-shadow-lg shadow-black relative">
-                            <img class="absolute top-[-45px] left-[40%]" src="../public/c6-card-img.svg">
+                            <img class="absolute top-[-45px] left-[40%]" src="./public/c6-card-img.svg">
                             <p>Such an amazing traniner and easily understand the entire
                                 syllabus, and the guidence will be super and good to the way
                                 of explaning.</p>
